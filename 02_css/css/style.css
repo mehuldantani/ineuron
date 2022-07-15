@@ -27,3 +27,37 @@ p{
     font-size: 20px;
     letter-spacing: 2px;
 }
+
+button{
+    margin: auto;
+    margin-top: 15%;
+    display: block;
+}
+
+.btn{
+    background: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1.2em 2.8em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'montserrat';
+}
+
+.btn:hover{
+    outline: 0;
+    color: #FFFFFF;
+}
+
+.lco{
+    transition: box-shadow 300ms ease-in-out,color 300ms ease-in-out;
+s
+}
+
+.lco:hover{
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
