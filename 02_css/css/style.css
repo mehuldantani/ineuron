@@ -30,7 +30,6 @@ p{
 
 button{
     margin: auto;
-    margin-top: 15%;
     display: block;
 }
 
@@ -60,4 +59,16 @@ s
 
 .lco:hover{
     box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+
+footer{
+    position: fixed;
+    font-family: 'montserrat';
+    margin-top: 10%;
+    padding: 50px;
+    text-align: right;
+    background: #1f1f1f;  
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;      
 }
